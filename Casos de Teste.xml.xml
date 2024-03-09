@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<project>
+    <projectId>10001</projectId>
+    <projectKey>SWAG</projectKey>
+    <exportDate>2024-03-09 02:59:37 UTC</exportDate>
+    <folders>
+        <folder fullPath="Login" index="0"/>
+    </folders>
+    <testCases>
+        <testCase id="144170726" key="SWAG-T2">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>Hélio da Silva Paiva Junior</createdBy>
+            <createdOn>2024-03-08 10:34:45 UTC</createdOn>
+            <customFields/>
+            <issues/>
+            <labels/>
+            <name><![CDATA[Preencher dados para criação de conta]]></name>
+            <owner>712020:16391bde-064d-4b9e-b7d0-e629d2a6d32e</owner>
+            <priority><![CDATA[Normal]]></priority>
+            <status><![CDATA[Draft]]></status>
+            <parameters/>
+            <testDataWrapper/>
+            <testScript type="steps">
+                <steps>
+                    <step index="0">
+                        <customFields/>
+                        <description><![CDATA[Cliente clica no bot&atilde;o de cadastro]]></description>
+                        <expectedResult><![CDATA[]]></expectedResult>
+                    </step>
+                    <step index="1">
+                        <customFields/>
+                        <description><![CDATA[Campos do formul&aacute;rio a serem preenchidos]]></description>
+                    </step>
+                    <step index="2">
+                        <customFields/>
+                        <description><![CDATA[Cliente preenche os dados]]></description>
+                    </step>
+                    <step index="3">
+                        <customFields/>
+                        <description><![CDATA[Conta criada com sucesso]]></description>
+                    </step>
+                </steps>
+            </testScript>
+        </testCase>
+        <testCase id="144146983" key="SWAG-T1">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>Hélio da Silva Paiva Junior</createdBy>
+            <createdOn>2024-03-08 09:55:18 UTC</createdOn>
+            <customFields/>
+            <folder><![CDATA[Login]]></folder>
+            <issues/>
+            <labels/>
+            <name><![CDATA[Cliente sem cadastro deseja criar conta]]></name>
+            <objective><![CDATA[Verificar funcionalidade de login]]></objective>
+            <owner>712020:16391bde-064d-4b9e-b7d0-e629d2a6d32e</owner>
+            <priority><![CDATA[Normal]]></priority>
+            <status><![CDATA[Draft]]></status>
+            <parameters/>
+            <testDataWrapper/>
+            <testScript type="bdd">
+                <details><![CDATA[Given Cliente na pagina inicial, de login
+
+And não esteja cadastrado
+
+When clicar no botão cadastrar 
+
+Then é direcionado para uma nova página com formulário para cadastro]]></details>
+            </testScript>
+        </testCase>
+    </testCases>
+</project>
